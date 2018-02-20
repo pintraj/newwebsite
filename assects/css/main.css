@@ -1,0 +1,48 @@
+section.top-bar {
+    padding: 10px;
+    background: black;
+    color: white;
+}
+@font-face {
+    font-family: 'Bellefair', serif;
+}
+html * {
+    outline: 0 !important
+}
+
+html, body {
+    min-height: 100%;
+    overflow-x: hidden
+}
+
+body {
+    font-family: 'Bellefair', serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000000;
+    background-color: #ffffff;
+    text-align: justify;
+
+}
+
+p, a, label, span {
+    font-size: 19px
+}
+
+a:hover, a:active, a:focus {
+    text-decoration: none
+}
+
+a {
+    transition: all 0.2s ease
+}
+
+h1, h2, h3, h4 {
+    /*font-weight: bold;*/
+    font-family: 'Bellefair', serif;
+    color: #216149;
+}
+
+h5 {
+    font-weight: normal
+}
